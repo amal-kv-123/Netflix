@@ -1,0 +1,410 @@
+body{
+    margin: 0px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    
+}
+
+.outer{
+    width: 100%;
+    height: 20cm;
+     background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%),url("https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/2341e349-a6fc-4b04-a0ad-9b21defa1f88/IN-en-20220307-popsignuptwoweeks-perspective_alpha_website_small.jpg"); 
+    background-size:cover 100%;
+}
+
+.netflix-logo{
+    fill: red;
+    height: 3cm;
+    margin-left: 1cm;
+    width: 5cm;
+    
+
+}
+.text-outer{
+    width: 24cm;
+    height: 10cm;
+    margin-left: 13cm;
+    margin-top: 3cm;
+}
+.text-outer h1{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    
+}
+.text2-outer{
+    text-align: center;
+    font-size:  26px;
+    font-weight: 200;
+    color: white;
+  
+    
+}
+.text3-outer{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 200;
+    color: white;
+   
+}
+.email{
+    width: 13cm;
+    height: 70px;
+    float: left;
+    margin-left: 2cm;
+}
+.button-getstart{
+    background-color: red;
+    height: 2cm;
+    display: flex;
+    align-items: center;
+    border: black;
+    cursor: pointer;
+    width: 6cm;
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+
+
+.select
+{
+    background-color: black;
+    height: 1cm ;
+    color: white;
+    width: 3cm;
+    border:1px solid;
+
+
+
+       
+}
+
+.header-button
+{
+    width: 6cm;
+    display: flex;
+    float: right;
+    margin-right: 1cm;
+    margin-top: 24px;
+    justify-content: space-evenly;
+    height: 1cm;
+    align-items: flex-end;
+    
+    
+}
+.button-getstart:hover{
+    
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.button1{
+    background-color: red;
+    width: 2cm;
+    color: white;
+    height: 1cm;
+    font-size: large;
+    font-weight: 500;
+    
+    
+}
+div h2{
+   font-size: xx-large;
+   font-weight: 300;
+
+   
+}
+
+.div2
+{
+    width: 100%;
+    height: 12cm;
+    border-top:12px ;
+    border-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+hr{
+    color: rgb(58, 58, 58);
+    margin: 0px;
+}
+
+.text-div2
+{
+ width: 16cm;
+ height:  8cm;
+ padding-left: 3cm;
+ padding-top: 2cm;
+ 
+ background-color: rgb(0, 0, 0);
+}
+.img-div2
+{
+    width: 16cm;
+    height:  12cm;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 80, 53);
+}
+h1
+{
+    
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+h4{
+    color: white;
+    font-size: x-large;
+   
+}
+.img-tv
+{
+    height: 100%;
+    width:100% ;
+
+    position: relative;
+    
+
+}
+#tv-video
+{
+    width: 500px;
+    height: 300px;
+    background-color: cyan;
+    position: absolute;
+}
+.div3
+{
+    width: 100%;
+    height: 14cm;
+    background-color: black;
+}
+.div3
+{
+    display: flex;
+  
+    justify-content: center;
+}
+.img-div3
+{
+    width: 14cm;
+    height: 7cm;
+    margin-top: 2cm;
+    background-color: rgb(241, 241, 241);
+    
+}
+.text-div3
+{
+    
+    width: 14cm;
+    height: 8cm;
+    margin-top: 3cm;
+   margin-left: 2cm;
+}
+.img2
+{
+  width: 100%;
+  height: inherit;
+  
+}
+
+.card
+{
+    width: 9cm;
+    height: 3cm;
+    background-color: rgb(0, 0, 0);
+    margin-left: 2.5cm;
+    border-radius: 10px;
+    border: solid;
+    border-color:rgb(88, 88, 88) ;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+
+.animation
+{
+
+    height: 2cm;
+    width: 2cm;
+    margin-bottom: 20px;
+    
+    background-color: rgb(67, 116, 96);
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+   
+}
+
+.icon-img
+{
+    height: 80px;
+    width: 60px;
+   
+}
+.card-text{
+    color: white;
+    font-size: medium;
+   
+    
+
+}
+.textmain-div3{
+    color: white;
+    font-size:45px;
+
+}
+ h5{
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+
+}
+.div4
+{
+ width: 100%;
+ height: 15cm;
+ background-color: black;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.text-div4
+{
+    width: 14cm;
+    height: 10cm;
+    background-color: rgb(0, 0, 0);
+}
+.img-div4{
+
+    width: 14cm;
+    height: 10cm;
+    background-color: rgb(0, 0, 0);
+    margin-left: 3cm;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.video2{
+    width: 11cm;
+    margin-left: 2.8cm;
+    margin-bottom: 4cm;
+    
+}
+.card-img{
+    position: absolute ;
+}
+
+.div5{
+    width: 100%;
+    height: 15cm;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-div5{
+    width: 15cm;
+    height: 10cm;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+
+}
+.text-div5{
+    width: 15cm;
+    height: 10cm;
+    margin-left: 2cm;
+    background-color: rgb(0, 0, 0);
+
+}
+.div6{
+    width: 100%;
+    height: 26cm;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+.div6 div{
+    height: 2cm;
+    width: 22cm;
+    margin-bottom: 9px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+div h6{
+    color: white;
+    font-size: large;
+}
+div svg{
+    color: white;
+    height: 1cm;
+    width: 1cm;
+
+    
+}
+#button-div{
+ background-color: black;   
+}
+div h3{
+    color: white;
+    margin-left: 1cm;
+    font-size: 25px;
+    font-weight: 300;
+}
+.footer{
+    width: 100%;
+    height: 12cm;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text
+{
+    color: rgb(100, 100, 100);
+    font-size: large;
+    margin-top: 0px;
+}
+.footer-outer{
+    width: 22cm;
+    height: 9cm;
+    margin-top: 1cm;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+.div-li{
+   background-color: rgb(0, 0, 0);
+   width: 22cm;
+   height: 4cm;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+li{
+    color: rgb(100, 100, 100);
+    margin-bottom: 8px;
+    list-style: none;
+    
+}
+div h7{
+    color: rgb(100, 100, 100);
+    margin-top: 5.5cm;
+    position: absolute;
+    margin-right: 19.5cm;
+}
